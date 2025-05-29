@@ -1,0 +1,11 @@
+<?php
+$cookie_name="user";
+$cookie_value="anand";
+setcookie($cookie_name,$cookie_value,time()+5,"/");
+if(!isset($_COOKIE[$cookie_name])){
+    echo "cookie named".$cookie_name."is set";
+    echo "value is".$_COOKIE[$cookie_name];
+}else{
+    echo "cookie named".$cookie_name."is not set";
+}
+?>
