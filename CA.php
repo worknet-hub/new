@@ -37,6 +37,7 @@ $hammingNumbers = getHammingNumbers(24);
 // Print "Not a Hamming number" followed by "Hamming number" and the list of Hamming numbers
 echo "Not a Hamming Number<br>";
 echo "Hamming Number<br>";
+echo "New edit, committing it";
 echo implode(", ", $hammingNumbers) . "<br>";
 
 ?>
